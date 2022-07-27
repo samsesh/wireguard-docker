@@ -20,6 +20,7 @@ services:
     volumes:
       - ${FILELOCATION}/config:/config
       - /lib/modules:/lib/modules
+      - /etc/resolv.conf:/etc/resolv.conf:ro
     ports:
       - ${SERVERPORT}:${SERVERPORT}/udp
     sysctls:
