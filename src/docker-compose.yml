@@ -16,7 +16,7 @@ services:
       - PEERS=${USERPEERS} #optional
       - PEERDNS=${DNS} #optional
       - INTERNAL_SUBNET=${INTERNAL_SUBNET} #optional
-      - LOG_CONFS=true #optional
+      - LOG_CONFS=${LOG_CONFS} #optional
     volumes:
       - ${FILELOCATION}/config:/config
       - /lib/modules:/lib/modules
