@@ -4,15 +4,17 @@
 You from inside the file
 ```.env```
 > You can change the value of variables
-- FILELOCATION= project path 
-- SERVERURL= domain or server address
-- CONTAINERNAME= container name
-- SERVERPORT= container and internet port
-- USERPEERS= number of users or names of users
-- DNS = dns address
-- INTERNAL_SUBNET= IP value and subnet
-> For example, if
-- USERPEERS=3
+```env
+FILELOCATION= project path 
+SERVERURL= domain or server address
+CONTAINERNAME= container name
+SERVERPORT= container and internet port
+USERPEERS= number of users or names of users
+DNS = dns address
+INTERNAL_SUBNET= IP value and subnet
+```
+- For example, if<br>
+```USERPEERS=3```<br>
 - Suppose you have only three users <br>
 Or you can use it like this <br>
 ``` USERPEERS=sam,josh ``` <br>
